@@ -1,0 +1,6 @@
+<div class="jumbotron">
+  <h2>List all your products with their prices!</h2>
+  <p class="lead">Here you see the most pricy product!</p>
+  <h3><%= @product.name %> @ <%= @product.price %></h3>
+  <a href="/products">Show me more</a>
+</div>
